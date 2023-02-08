@@ -21,6 +21,7 @@ describe LinkedList do
         list = LinkedList.new
         list.head = node_1        # h1
         list.tail = node_1        # h1t
+        list.length = 1
         list
       end
 
@@ -55,7 +56,7 @@ describe LinkedList do
         node_2.next_node = node_3 # h1 <--> 2 --> 3
         node_3.prev_node = node_2 # h1 <--> 2 <--> 3
         list.tail = node_3        # h1 <--> 2 <--> 3t
-  
+        list.length = 3
         list
       end
   

@@ -88,5 +88,6 @@ describe LinkedList do
         expect(node_1.next_node).to eq(nil)
       end
     end
+
   end
 end
